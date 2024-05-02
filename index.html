@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="button open-button">NEW BOOKEST</button>
+
+    <dialog class="modal" id="modal">
+      <h2>What book would you like to add?</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum at,
+        reprehenderit nemo ducimus adipisci ratione officiis doloribus dolore
+        explicabo est magni dolores accusantium ipsam non saepe velit optio quis
+        eius!
+      </p>
+
+      <button class="button close-button">close modal</button>
+      <form class="form" method="dialog">
+        <label>Book <input type="text" id="book_intake" /></label>
+        <br />
+        <label>Author <input type="text" id="author_intake" /></label>
+        <br />
+        <label>Pages <input type="text" id="page_intake" /></label>
+        <br />
+        <input type="radio" id="html" name="fav_language" value="HTML" />  
+        <label for="html">HTML</label><br />
+        <button class="button-submit" id="submission" type="submit">
+          submit book
+        </button>
+      </form>
+    </dialog>
+
+    <script src="javascript.js" defer></script>
+  </body>
+</html>
